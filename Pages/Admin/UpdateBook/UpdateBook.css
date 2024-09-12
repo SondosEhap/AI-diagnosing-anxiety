@@ -1,0 +1,85 @@
+/* UpdateBook page CSS */
+.UpdaBookupdateBookPage {
+    background-color: #325343;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically and horizontally */
+    padding: 50px; /* Increase padding for more space */
+    min-height: 110vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.UpdaBookupdateBook-container {
+    background-color: #bde8b5;
+    padding: 50px; /* Increase padding for more space */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    width: 1200px;
+    height: 700px;
+    background-color: #bde8b5;
+    padding: 30px; /* Increase padding for more space */
+}
+
+.UpdaBookpage-title {
+    color: #094819;
+    font-size: 48px; /* Increase font size */
+    font-family: "Lato";
+    font-weight: 700;
+    margin-bottom: 30px; /* Increase margin */
+    text-align: center; /* Center the text */
+}
+
+.UpdaBookbook-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px; /* Increase row gap */
+    align-items: center;
+}
+
+.UpdaBookpair-label-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px; /* Increase column gap */
+    width: 100%;
+    margin-top: 30px; /* Increase margin */
+}
+
+.UpdaBookInfo-label {
+    color: #094819;
+    font-size: 36px; /* Increase font size */
+    font-family: "Lato";
+    font-weight: 600;
+    flex: 1;
+}
+
+.UpdaBookInfo-control {
+    width: 400px; /* Increase input field width */
+    height: 60px; /* Increase input field height */
+    background: #a6de9b;
+    border: 1px solid #ccc;
+    color: black;
+    font-size: 24px; /* Increase font size */
+    font-family: "Lato";
+    font-weight: 700;
+    flex: 2;
+}
+
+.UpdaBookadd-button {
+    margin-top: 30px; /* Increase margin */
+    padding: 15px 30px; /* Increase padding */
+    background-color: #094819;
+    color: white;
+    border: none;
+    font-size: 24px; /* Increase font size */
+    font-family: "Lato";
+    font-weight: 700;
+    cursor: pointer;
+    align-self: center;
+}
+
+.UpdaBookadd-button:hover {
+  background-color: #0c5b2f;
+}

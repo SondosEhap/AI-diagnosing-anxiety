@@ -1,0 +1,116 @@
+.profilePage {
+  background-color: #325343;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-top: 95px;
+}
+.profile-container {
+  margin-top: 80px;
+  width: 1270px;
+  height: 831px;
+  background-color: #bde8b5;
+}
+.personal-info {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 130px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.AnxietyInfo {
+  display: flex;
+  flex-direction: column;
+}
+.Info {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.pair-label-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+  margin-top: 20px;
+}
+.Info-label {
+  color: #094819;
+  font-size: 30px;
+  font-family: "Lato";
+  font-weight: 600;
+}
+.Info-control {
+  width: 613px;
+  height: 68px;
+  background: #a6de9b;
+  border: 1px solid #ccc;
+  color: black;
+  font-size: 29px;
+  font-family: "Lato";
+  font-weight: 700;
+}
+.AnxietyInfo-text {
+  color: #094819;
+  font-size: 29px;
+  font-family: "Lato";
+  font-weight: 700;
+}
+
+
+
+.anxiety-levels {
+  padding: 40px;
+  margin-top: 80px
+}
+
+.anxiety-levels h2 {
+  font-size: 29px;
+  font-family: "Lato";
+  color: #094819;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.anxiety-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anxiety-table th,
+.anxiety-table td {
+  padding: 40px;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Lato";
+}
+
+.anxiety-table thead {
+  background-color: #094819;
+  color: #ffffff;
+}
+
+.anxiety-table th {
+  border-bottom: 2px solid #fffefe;
+}
+
+.anxiety-table tbody tr:nth-child(odd) {
+  background-color: #a6de9b;
+}
+
+.anxiety-table tbody tr:nth-child(even) {
+  background-color: #fefefe;
+}
+
+.anxiety-table tbody tr:hover {
+  background-color: #c5efc5;
+}
+.anxiety-table tbody td {
+  font-weight: bold;}

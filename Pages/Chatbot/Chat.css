@@ -1,0 +1,79 @@
+.page {
+  background-color: #b2c5aeff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 85px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.chat {
+  max-width: 911px;
+  height: 650px;
+  background: white;
+  border-radius: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo_image {
+  margin-bottom: 20px;
+}
+
+.chatbotTit {
+  color: #094819;
+  font-size: 29px;
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 700px;
+}
+
+.message {
+  width: auto;
+  max-width: 20%;
+  background-color: #325343;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: left;
+  align-self: flex-start;
+  font-size: 25px;
+  height: auto; /* Make height flexible */
+}
+
+.message.user {
+  margin-left: auto;
+  color: black;
+  background-color: #bde8b5;
+  align-self: flex-end;
+  text-align: center;
+  height: auto; /* Make height flexible */
+}
+
+.mess {
+  width: 860px; /* Occupy the entire width of the input container */
+  height: 70px;
+  background: white;
+  border-radius: 60px;
+  border: 1px #325343 solid;
+  color: black;
+  font-size: 29px;
+  font-family: "Lato";
+  font-weight: 300px;
+  padding-left: 20px;
+  margin-bottom: 5px;
+}

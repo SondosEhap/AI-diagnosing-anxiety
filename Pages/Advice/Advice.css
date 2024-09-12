@@ -1,0 +1,32 @@
+.advicePage {
+  background-color: #bde8b5;
+  margin-top: 3rem;
+}
+.slide {
+  margin-top: 100px;
+  background-color: white;
+  height: 580px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.adviceTitle {
+  color: #325343;
+  font-size: 55px;
+  font-family: "Lato";
+  font-weight: 500;
+}
+
+button {
+  width: 181px;
+  height: 63px;
+  background: #bde8b5;
+  color: #094819;
+  font-family: "Lato";
+  font-size: x-large;
+  font-weight: 400;
+  border-radius: 50px;
+}

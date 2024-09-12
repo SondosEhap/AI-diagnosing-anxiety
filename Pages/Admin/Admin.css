@@ -1,0 +1,103 @@
+.admin-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #094534;
+  }
+  
+  
+  .profile-container {
+    margin-top: 80px;
+    width: 100%; /* Use full width of the page */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+  }
+  
+  .personal-info {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 130px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  
+  .AnxietyInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .AnxietyInfo img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .Info {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px; /* Reduce the gap between items */
+  }
+  
+  
+  .pair-label-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px; /* Reduce the gap between items */
+    margin-top: 20px;
+    
+  }
+  
+  
+  
+  .Info-label {
+    color: #094819;
+    font-size: 30px;
+    font-family: "Lato";
+    font-weight: 600;
+  }
+  
+  .Info-control,
+  .Info-dropdown {
+    width: 613px;
+    height: 68px;
+    background: #a6de9b;
+    border: 1px solid #ccc;
+    color: black;
+    font-size: 29px;
+    font-family: "Lato";
+    font-weight: 700;
+  }
+  
+  .Info-dropdown2 {
+    width: 613px;
+    height: 68px;
+    background: #a6de9b;
+    border: 1px solid #ccc;
+    color: black;
+    font-size: 29px;
+    font-family: "Lato";
+    font-weight: 700;
+    margin-left: auto;
+  }
+  
+  
+  .Info-dropdown3 {
+    width: 613px;
+    height: 68px;
+    background: #a6de9b;
+    border: 1px solid #ccc;
+    color: black;
+    font-size: 29px;
+    font-family: "Lato";
+    font-weight: 700;
+    margin-left: auto;
+  }
+  
+  
+  
+  .Info-dropdown {
+    padding: 5px;
+  }  

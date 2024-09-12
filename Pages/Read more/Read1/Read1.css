@@ -1,0 +1,28 @@
+.Read1_title {
+  margin-top: 100px;
+  height: 161px;
+  font-size: 48px;
+  color: #094819;
+  background-color: #bde8b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Read1_title p {
+  font-weight: bolder;
+}
+.paragraphRead11 {
+  color: black;
+  margin-right: 85px;
+  margin-left: 85px;
+  margin-top: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 35px;
+  font-weight: 500;
+}
+.paragraphRead11 li {
+  list-style: circle;
+}

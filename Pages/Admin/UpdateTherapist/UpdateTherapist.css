@@ -1,0 +1,81 @@
+.profile-page-custom {
+    background-color: #325343;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Adjust alignment to the top */
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box; /* Ensure padding is included in the height calculation */
+    position: relative; /* Add relative positioning */
+  }
+  
+  .profile-container-custom {
+    background-color: #bde8b5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px; /* Set a max width for the form */
+    box-sizing: border-box;
+    margin-top: 90px; /* Add margin to the top */
+  }
+  .page-title {
+    color: #094819;
+    font-size: 24px;
+    font-family: "Lato";
+    font-weight: 700;
+    margin-bottom: 10px; /* Add space below the title */
+    position: absolute;
+    top: 100px; /* Position 100px from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+  }
+  
+  .info-custom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+  }
+  
+  .pair-label-text-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    width: 100%;
+    margin-top: 25px; 
+  }
+ 
+  .info-label-custom {
+    color: #094819;
+    font-size: 20px;
+    font-family: "Lato";
+    font-weight: 600;
+    flex: 1; /* Make the label flexible */
+  }
+  
+  .info-control-custom {
+    width: 300px;
+    height: 40px;
+    background: #a6de9b;
+    border: 1px solid #ccc;
+    color: black;
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 700;
+    flex: 2; /* Make the input field flexible */
+  }
+  
+  .add-button-custom {
+    margin-top: 30px; /* Increase margin */
+    padding: 15px 30px; /* Increase padding */
+    background-color: #094819;
+    color: white;
+    border: none;
+    font-size: 24px; /* Increase font size */
+    font-family: "Lato";
+    font-weight: 700;
+    cursor: pointer;
+    align-self: center;
+  }

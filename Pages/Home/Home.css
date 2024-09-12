@@ -1,0 +1,179 @@
+.logo_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  width: 156px;
+  height: 156px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 85px 20px 85px;
+}
+.box {
+  border-radius: 20px;
+  padding: 3px;
+  background: white;
+  border: 3px #325343 solid;
+}
+.buttonbox {
+  border-radius: 20px;
+  border: 3px #325343 solid;
+  width: 100px;
+  height: 50px;
+}
+.navPart {
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+}
+.navPart a {
+  font-size: 29px;
+  font-weight: 500;
+  font-family: "Lato";
+  color: #094819;
+}
+.def {
+  height: 736px;
+  width: 100%;
+  background-color: #b2c5aeff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.def_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  color: #094819;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Lato";
+}
+.paragraph {
+  width: 1172px;
+  height: 90px;
+  text-align: center;
+  color: #094819;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Lato";
+}
+.homeImg {
+  margin-top: 50px;
+}
+.symptoms_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 250px;
+}
+.left {
+  margin-left: 85px;
+  width: 670px;
+  height: 158px;
+}
+.symp_title {
+  font-size: 30px;
+  color: #7ec16a;
+  font-weight: 600;
+}
+.symp_paragraph {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: 600;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  margin-right: 20px;
+  padding-left: 30px;
+}
+.one_item {
+  display: flex;
+  align-items: center;
+}
+.symp {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: 600;
+  margin-left: 5px;
+}
+.doctor {
+  width: 1269px;
+  height: 419px;
+  background: #325343;
+  border-radius: 28px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.doctor_content {
+  padding: 40px;
+}
+.doctor_content_therapist2 {
+  padding: 0px 50px 0px 50px;
+}
+.doctorParagraph {
+  color: white;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 500;
+}
+.one_item_phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.help {
+  height: 1600px;
+  margin-top: 100px;
+  background-color: #325343;
+  padding: 30px;
+}
+.howDoWeHelp {
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.help_left {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  width: 937px;
+  height: 187px;
+  margin: 50px 0px 50px 120px;
+  padding: 20px;
+}
+.help_right {
+  background-color: white;
+  border-radius: 20px;
+  width: 937px;
+  height: 187px;
+  margin: 50px 120px 50px 0px;
+  padding: 20px;
+}
+
+.help_title {
+  color: #094819;
+  font-size: 40px;
+  font-family: "Lato";
+  font-weight: 600;
+  margin: 0px;
+  padding: 0%;
+}
+.help_paragraph {
+  color: #325343;
+  font-size: 32px;
+  font-family: "Lato";
+  font-weight: 500;
+}
